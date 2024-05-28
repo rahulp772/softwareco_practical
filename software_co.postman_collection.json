@@ -255,7 +255,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\":\"Rahul\", \r\n    \"lastName\":\"Prajapati\", \r\n    \"email\":\"rahul2@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"roleName\":\"admin\", \r\n    \"accessModules\":[\"admin\"] \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -292,13 +292,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/api/users/6655d49a9c59f1963588dbcc",
+							"raw": "{{host}}/api/roles/6655d49a9c59f1963588dbcc",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"api",
-								"users",
+								"roles",
 								"6655d49a9c59f1963588dbcc"
 							]
 						}
@@ -352,7 +352,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"firstName\":\"Ashish\", \r\n    \"lastName\":\"superAdmin\", \r\n    \"email\":\"Ashish@gmail.com\", \r\n    \"password\":\"Test@123\",\r\n    \"roleId\":\"6655e74073caffe33ed8b272\"\r\n}",
+					"raw": "{\r\n        \"firstName\":\"Ashish\",\r\n        \"lastName\":\"Panchal\", \r\n        \"email\":\"superadmin1@gmail.com\", \r\n        \"password\":\"Test@123\",\r\n        \"roleId\":\"6655e75273caffe33ed8b275\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -395,7 +395,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"mehul@gmail.com\", \r\n    \"password\":\"Test@123\"\r\n}",
+					"raw": "{\r\n    \"email\":\"superadmin1@gmail.com\", \r\n    \"password\":\"Test@123\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
